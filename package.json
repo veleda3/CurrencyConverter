@@ -12,13 +12,23 @@
     "precmmint": "lint-stage"
   },
   "lint-staged": {
-    "*.js": ["yarn run format-code", "git add"]
+    "*.js": [
+      "yarn run format-code",
+      "git add"
+    ]
   },
   "dependencies": {
+    "@expo/vector-icons": "^8.1.0",
     "babel-eslint": "^10.0.1",
+    "color": "^3.1.0",
     "expo": "^31.0.2",
+    "hoist-non-react-statics": "3.0.1",
+    "moment": "^2.23.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-dropdownalert": "3.1.2",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-navigation": "2.5.5"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
